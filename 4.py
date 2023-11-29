@@ -1,0 +1,20 @@
+# ejercicio 4
+
+a = int(input("Ingrese su rut: \n"))
+b = a - (int(a/10*10))
+aux = int(aux/10)
+c = aux - (int(aux/10)*10)
+aux = int(aux/10)
+d = aux - (int(aux/10)*10)
+aux = int(aux/10)
+e = aux - (int(aux/10)*10)
+aux = int(aux/10)
+f = aux - (int(aux/10)*10)
+aux = int(aux/10)
+g = aux - (int(aux/10)*10)
+aux = int(aux/10)
+h = aux - (int(aux/10)*10)
+aux = int(aux/10)
+j = aux - (int(aux/10)*10)
+
+print(a + b + c + d + e + f + g + h + j)
